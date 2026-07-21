@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: MCP Server",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/mcp_server.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: MCP Client",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/mcp_client.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
